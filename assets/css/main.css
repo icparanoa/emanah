@@ -854,7 +854,7 @@ section,
 .hero .wave3 use {
   animation: move-forever3 6s linear infinite;
   animation-delay: -2s;
-  fill: #38B54A;
+  fill: #ffffff;
 }
 
 @keyframes move-forever1 {
