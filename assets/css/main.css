@@ -24,7 +24,7 @@
 :root {
   --nav-color: #ffffff;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #C6E8F3;
+  --nav-hover-color: #F8941D;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
   /* Used as the background color for mobile navigation menu */
@@ -32,14 +32,14 @@
   /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #060606;
   /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #C6E8F3;
+  --nav-dropdown-hover-color: #F8941D;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: #e42a2a;
   --surface-color: #ffffff;
 }
 
@@ -221,7 +221,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #edd8be;
+  --background-color: #C6E8F3;
 }
 
 /*--------------------------------------------------------------
@@ -681,7 +681,7 @@ section,
 
 .section-bg:before {
   content: "";
-  background-color: #EDD8BE;
+  background-color: #C6E8F3;
   position: absolute;
   bottom: 60px;
   top: 60px;
